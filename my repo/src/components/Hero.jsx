@@ -1,6 +1,9 @@
 import React from 'react'
 
-const Hero = ({title='title',sub='sub'}) => {
+const Hero = ({
+  title = 'Become a React Dev',
+  subtitle = 'Find the React job that fits your skill set',
+}) => {
   return (
     <section className="bg-indigo-700 py-20 mb-4">
       <div
@@ -13,7 +16,7 @@ const Hero = ({title='title',sub='sub'}) => {
             {title}
           </h1>
           <p className="my-4 text-xl text-white">
-            {sub}
+            {subtitle}
           </p>
         </div>
       </div>
